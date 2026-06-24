@@ -1,0 +1,53 @@
+<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d2818"/>
+      <stop offset="100%" stop-color="#0d1b3e"/>
+    </linearGradient>
+  </defs>
+  <rect width="420" height="200" fill="url(#skyGrad)"/>
+  <!-- ground -->
+  <rect x="0" y="118" width="420" height="82" fill="#071a0d" opacity="0.7"/>
+  <rect x="0" y="115" width="420" height="7" fill="#166534" opacity="0.6"/>
+  <!-- trees / nature -->
+  <polygon points="30,115 50,70 70,115" fill="#14532d" opacity="0.7"/>
+  <polygon points="22,115 50,55 78,115" fill="#166534" opacity="0.5"/>
+  <polygon points="360,115 378,72 396,115" fill="#14532d" opacity="0.7"/>
+  <polygon points="352,115 378,58 404,115" fill="#166534" opacity="0.5"/>
+  <!-- Eljen GSF module underground - the key differentiator -->
+  <!-- label above ground -->
+  <text x="210" y="30" font-family="Arial" font-size="14" fill="white" text-anchor="middle" font-weight="900" opacity="0.95">ALTERNATIVE SYSTEMS</text>
+  <text x="210" y="48" font-family="Arial" font-size="10" fill="#4ade80" text-anchor="middle" font-weight="700">Eljen GSF · Certified Georgia Installer</text>
+  <!-- Eljen module cross-section -->
+  <g transform="translate(110,125)">
+    <!-- module casing -->
+    <rect x="0" y="0" width="200" height="42" rx="5" fill="#1a3a2a" stroke="#22c55e" stroke-width="1.5" opacity="0.9"/>
+    <!-- Eljen label -->
+    <text x="100" y="14" font-family="Arial" font-size="8" fill="#4ade80" text-anchor="middle" font-weight="bold">ELJEN GSF MODULE</text>
+    <!-- geotextile fabric representation -->
+    <line x1="8" y1="20" x2="192" y2="20" stroke="#4ade80" stroke-width="1" stroke-dasharray="4,3" opacity="0.6"/>
+    <!-- aggregate / stones -->
+    <circle cx="20" cy="32" r="4" fill="#374151" opacity="0.8"/>
+    <circle cx="34" cy="30" r="3" fill="#4b5563" opacity="0.8"/>
+    <circle cx="46" cy="33" r="4" fill="#374151" opacity="0.8"/>
+    <circle cx="60" cy="31" r="3" fill="#4b5563" opacity="0.8"/>
+    <circle cx="74" cy="33" r="4" fill="#374151" opacity="0.8"/>
+    <circle cx="88" cy="30" r="3" fill="#4b5563" opacity="0.8"/>
+    <circle cx="100" cy="33" r="4" fill="#374151" opacity="0.8"/>
+    <circle cx="114" cy="31" r="3" fill="#4b5563" opacity="0.8"/>
+    <circle cx="128" cy="33" r="4" fill="#374151" opacity="0.8"/>
+    <circle cx="142" cy="30" r="3" fill="#4b5563" opacity="0.8"/>
+    <circle cx="156" cy="33" r="4" fill="#374151" opacity="0.8"/>
+    <circle cx="170" cy="31" r="3" fill="#4b5563" opacity="0.8"/>
+    <circle cx="184" cy="33" r="4" fill="#374151" opacity="0.8"/>
+  </g>
+  <!-- soil absorption arrows -->
+  <line x1="150" y1="167" x2="150" y2="185" stroke="#4ade80" stroke-width="1.5" opacity="0.4" marker-end="url(#arr)"/>
+  <line x1="190" y1="167" x2="190" y2="185" stroke="#4ade80" stroke-width="1.5" opacity="0.4"/>
+  <line x1="230" y1="167" x2="230" y2="185" stroke="#4ade80" stroke-width="1.5" opacity="0.4"/>
+  <line x1="270" y1="167" x2="270" y2="185" stroke="#4ade80" stroke-width="1.5" opacity="0.4"/>
+  <!-- badge -->
+  <rect x="130" y="75" width="160" height="30" rx="15" fill="#14532d" stroke="#22c55e" stroke-width="1.5"/>
+  <text x="210" y="90" font-family="Arial" font-size="9" fill="#4ade80" text-anchor="middle" font-weight="bold">Difficult lots · Rocky soils · High water table</text>
+  <text x="210" y="103" font-family="Arial" font-size="8" fill="#4ade80" text-anchor="middle" opacity="0.7">We engineer solutions that pass</text>
+</svg>
